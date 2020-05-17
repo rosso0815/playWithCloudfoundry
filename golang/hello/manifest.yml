@@ -1,0 +1,6 @@
+---
+  applications:
+  - name: hello
+    buildpack: go_buildpack
+    env:
+      GOPACKAGENAME: main
